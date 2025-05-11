@@ -1,0 +1,71 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+}
+h1,h3{
+    color: #B92B27;
+}
+#Login{
+    background-color: white;
+}
+#signup{
+    background-color: #B92B27;
+  font-weight: solid;
+}
+.a{
+  color: rgb(246, 65, 15);
+  text-decoration: none;
+text-decoration: solid;
+}
+p a{
+    color: crimson;
+}
+nav ul li{
+    color: coral;
+}
+p + h3{
+    color: blue;
+}
+#class {
+   background-color: deeppink;
+   color: whitesmoke;
+}
+span button{
+    background-color: blue;
+    color: whitesmoke;
+}
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: honeydew;
+}
+button:hover{
+    color: #B92B27;
+    background-color: chartreuse;
+}
+h3:hover{
+    color: deeppink;
+    background-color: lightblue;
+}
+div>label:hover{
+    color: red;
+    background-color: antiquewhite;
+}
+input[type="radio"]:checked + label {
+    color: red;
+    background-color: antiquewhite;
+}
+body p:nth-of-type(2n){
+    color: darkorange;
+}
+h3:nth-of-type(2n){
+   color: red; 
+}
+h1::first-letter{
+    color: gold;
+}
+body a:hover{
+text-decoration: underline black;
+color: rgb(255, 213, 47);
+}
